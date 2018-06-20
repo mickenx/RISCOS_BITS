@@ -1,0 +1,357 @@
+A64_N-BROM           *         0x00000000;---0x0000 BFFF
+
+A64_N-BROM_SIZE      *         49152
+
+A64_S-BROM           *         0x00000000;---0x0000 FFFF
+
+A64_S-BROM_SIZE      *         65536
+
+A64_SRAM-A1          *         0x00010000;---0x0001 7FFF
+
+A64_SRAM-A1_SIZE     *         32768
+
+A64_SRAM-A2          *         0x00044000;---0x0005 3FFF
+
+A64_SRAM-A2_SIZE     *         65536
+
+A64_SRAM-C           *         0x00018000;---0x0003 FFFF
+
+A64_SRAM-C_SIZE      *         163840
+
+A64_DE               *         0x01000000;---0x013F FFFF
+
+A64_DE_SIZE          *         4194304
+
+A64_Core-Sight-Debug           *      0x01400000;---0x0141 FFFF
+
+A64_Core-Sight-Debug_SIZE      *      131072
+
+A64_CPU-MBIST        *         0x01502000;---0x0150 2FFF
+
+A64_CPU-MBIST_SIZE   *         4096
+
+A64_CPUX_CFG         *         0x01700000;---0x0170 03FF
+
+A64_CPUX_CFG_SIZE    *         1024
+
+
+
+
+
+A64_System-Control             *      0x01C00000;---0x01C0 0FFF
+
+A64_System-Control_SIZE        *      4096
+
+A64_DMA              *         0x01C02000;---0x01C0 2FFF
+
+A64_DMA_64           *         4096
+
+A64_NFDC             *         0x01C03000;---0x01C0 3FFF
+
+A64_NFDC_SIZE        *         4096
+
+A64_TS               *         0x01C06000;---0x01C0 6FFF
+
+A64_TS_SIZE          *         4096
+
+A64_Key-Memory-Space           *      0x01C0B000;---0x01C0 BFFF
+
+A64_Key-Memory-Space_SIZE      *      4096
+
+A64_TCON-0           *         0x01C0C000;---0x01C0 CFFF
+
+A64_TCON-0_SIZE      *         4096
+
+A64_TCON-1           *         0x01C0D000;---0x01C0 DFFF
+
+A64_TCON-1_SIZE      *         4096
+
+A64_VE               *         0x01C0E000;---0x01C0 EFFF
+
+A64_VE_SIZE          *         4096
+
+A64_SMHC-0           *         0x01C0F000;---0x01C0 FFFF
+
+A64_SMHC-0_SIZE      *         4096
+
+A64_SMHC-1           *         0x01C10000;---0x01C1 0FFF
+
+A64_SMHC-1_SIZE      *         4096
+
+A64_SMHC-2           *         0x01C11000;---0x01C1 1FFF
+
+A64_SMHC-2_SIZE      *         4096
+
+A64_SID              *         0x01C14000;---0x01C1 43FF
+
+A64_SID_SIZE         *         1024
+
+A64_Crypto-Engine              *      0x01C15000;---0x01C1 5FFF
+
+A64_Crypto-Engine_SIZE         *      4096
+
+A64_MSG_BOX          *         0x01C17000;---0x01C1 7FFF
+
+A64_MSG_BOX_SIZE     *         4096
+
+A64_SPINLOCK         *         0x01C18000;---0x01C1 8FFF
+
+A64_SPINLOCK_SIZE    *         4096
+
+A64_USB-OTG-Device             *      0x01C19000;---0x01C1 9FFF
+
+A64_USB-OTG-Device_SIZE        *      4096
+
+A64_USB-OTG-EHCI-OHCI          *      0x01C1A000;---0x01C1 AFFF
+
+A64_USB-OTG-EHCI-OHCI_SIZE     *      4096
+
+A64_USB-EHCI0-OHCI0            *      0x01C1B000;---0x01C1 BFFF
+
+A64_USB-EHCI0-OHCI0_SIZE       *      4096
+
+A64_SMC              *         0x01C1E000;---0x01C1 EFFF
+
+A64_SMC_SIZE         *         4096
+
+
+
+
+
+A64_CCU              *         0x01C20000;---0x01C2 03FF
+
+A64_CCU_SIZE         *         1024
+
+A64_PIO              *         0x01C20800;---0x01C2 0BFF
+
+A64_PIO_SIZE         *         1024
+
+A64_TIMER            *         0x01C20C00;---0x01C2 0FFF
+
+A64_TIMER_SIZE       *         1024
+
+A64_OWA              *         0x01C21000;---0x01C2 13FF
+
+A64_OWA_SIZE         *         1024
+
+A64_PWM              *         0x01C21400;---0x01C2 17FF
+
+A64_PWM_SIZE         *         1024
+
+A64_KEYADC           *         0x01C21800;---0x01C2 1BFF
+
+A64_KEYADC_SIZE      *         1024
+
+A64_I2S-PCM-0        *         0x01C22000;---0x01C2 23FF
+
+A64_I2S-PCM-0_SIZE   *         1024
+
+A64_I2S-PCM-1        *         0x01C22400;---0x01C2 27FF
+
+A64_I2S-PCM-1_SIZE   *         1024
+
+;A64 User Manual (Revision 1.0) Copyright© 2015 Allwinner Technology Co.,Ltd.;All Rights Reserved. Page 73
+
+
+
+;System
+
+A64_I2S-PCM-2        *         0x01C22800;---0x01C2 2BFF
+
+A64_I2S-PCM-2_SIZE   *         1024
+
+A64_AC               *         0x01C22C00;---0x01C2 33FF
+
+A64_AC_SIZE          *         2048
+
+A64_SPC              *         0x01C23400;---0x01C2 37FF
+
+A64_SPC_SIZE         *         1024
+
+A64_THS              *         0x01C25000;---0x01C2 53FF
+
+A64_THS_SIZE         *         1024
+
+
+
+
+
+A64_UART-0           *         0x01C28000;---0x01C2 83FF
+
+A64_UART-0_SIZE      *         1024
+
+A64_UART-1           *         0x01C28400;---0x01C2 87FF
+
+A64_UART-1_SIZE      *         1024
+
+A64_UART-2           *         0x01C28800;---0x01C2 8BFF
+
+A64_UART-2_SIZE      *         1024
+
+A64_UART-3           *         0x01C28C00;---0x01C2 8FFF
+
+A64_UART-3_SIZE      *         1024
+
+A64_UART-4           *         0x01C29000;---0x01C2 93FF
+
+A64_UART-4_SIZE      *         1024
+
+A64_TWI-0            *         0x01C2AC00;---0x01C2 AFFF
+
+A64_TWI-0_SIZE       *         1024
+
+A64_TWI-1            *         0x01C2B000;---0x01C2 B3FF
+
+A64_TWI-1_SIZE       *         1024
+
+A64_TWI-2            *         0x01C2B400;---0x01C2 B7FF
+
+A64_TWI-2_SIZE       *         1024
+
+A64_SCR              *         0x01C2C400;---0x01C2 C7FF
+
+A64_SCR_SIZE         *         1024
+
+
+
+
+
+A64_EMAC             *         0x01C30000;---0x01C3 FFFF
+
+A64_EMAC_SIZE        *         65536
+
+A64_GPU                *        0x01C40000;---0x01C4 FFFF
+
+A64_GPU_SIZE           *        65536
+
+
+
+
+
+A64_HSTMR            *        0x01C60000;---0x01C6 0FFF
+
+A64_HSTMR_SIZE       *        4096
+
+A64_DRAMCOM          *        0x01C62000;---0x01C6 2FFF
+
+A64_DRAMCOM_SIZE     *        4096
+
+A64_DRAMCTL0         *        0x01C63000;---0x01C6 3FFF
+
+A64_DRAMCTL0_SIZE    *        4096
+
+A64_DRAMPHY0         *        0x01C65000;---0x01C6 5FFF
+
+A64_DRAMPHY0_SIZE    *        4096
+
+A64_SPI0             *        0x01C68000;---0x01C6 8FFF
+
+A64_SPI0_SIZE        *        4096
+
+A64_SPI1             *        0x01C69000;---0x01C6 9FFF
+
+A64_SPI1_SIZE        *        4096
+
+;SCU space,
+
+;0x01C80000
+
+A64_GIC		*              0x01C80000 + 0x1000
+A64_GIC_SIZE    *              0x1F000
+
+;A64_GIC_DIST 0x01C80000 + 0x1000
+
+;CPUS can’t access
+
+;A64_GIC_CPUIF 0x01C80000 + 0x2000
+
+A64_MIPI-DSI   *          0x01CA0000;---0x01CA 0FFF
+
+A64_MIPI-DSI_SIZE    *             4096
+
+A64_MIPI-DSI-PHY                   *      0x01CA1000;---0x01CA 1FFF
+
+A64_MIPI-DSI-PHY_SIZE              *      4096
+
+A64_CSI              *             0x01CB0000;---0x01CF FFFF
+
+A64_CSI_SIZE         *             327680
+
+A64_De-interlaced                  *      0x01E00000;---0x01E1 FFFF
+
+A64_De-interlaced_SIZE             *      131072
+
+A64_HDMI             *             0x01EE0000;---0x01EF FFFF
+
+A64_HDMI_SIZE        *             131072
+
+
+
+
+
+A64_RTC              *             0x01F00000;---0x01F0 03FF
+
+A64_RTC_SIZE         *             1024
+
+A64_R_TIMER          *             0x01F00800;---0x01F0 0BFF
+
+A64_R_TIMER_SIZE     *             1024
+
+A64_R_INTC           *             0x01F00C00;---0x01F0 0FFF
+
+A64_R_INTC_SIZE      *             1024
+
+A64_R_WDOG           *             0x01F01000;---0x01F0 13FF
+
+A64_R_WDOG_SIZE      *             1024
+
+A64_R_PRCM           *             0x01F01400;---0x01F0 17FF
+
+A64_R_PRCM_SIZE      *             1024
+
+A64_R_TWD            *             0x01F01800;---0x01F0 1BFF
+
+A64_R_TWD_SIZE       *             1024
+
+A64_R_CPUCFG         *             0x01F01C00;---0x01F0 1FFF
+
+A64_R_CPUCFG_SIZE    *             1024
+
+A64_R_CIR-RX         *             0x01F02000;---0x01F0 23FF
+
+A64_R_CIR-RX_SIZE    *             1024
+
+A64_R_TWI            *             0x01F02400;---0x01F0 27FF
+
+A64_R_TWI_SIZE       *             1024
+
+A64_R_UART           *             0x01F02800;---0x01F0 2BFF
+
+A64_R_UART_SIZE      *             1024
+
+;A64 User Manual (Revision 1.0) Copyright© 2015 Allwinner Technology Co.,Ltd.;All Rights Reserved. Page 74
+
+
+
+;System
+
+A64_R_PIO            *             0x01F02C00;---0x01F0 2FFF
+
+A64_R_PIO_SIZE       *             1024
+
+A64_R_RSB            *             0x01F03400;---0x01F0 37FF
+
+A64_R_RSB_SIZE       *             1024
+
+A64_R_PWM   * 0x01F03800;---0x01F0 3BFF
+
+A64_R_PWM_SIZE    * 1024
+
+
+
+
+
+A64_SDRAM    * 0x40000000;---0xFFFF FFFF
+
+A64_SDRAM_SIZE
+3G
