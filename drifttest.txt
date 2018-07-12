@@ -1,0 +1,5 @@
+10 FOR I = 1 TO 1000
+20 PRINT TIME$
+30 SYS"OS_Hardware",1000000,,,,,,,,,22
+40 NEXT
+
