@@ -1,2 +1,2 @@
 # RISCOS_BITS
-Various RISC OS Pinebook
+Various RISC OS
